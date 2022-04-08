@@ -1,0 +1,210 @@
+
+/* ============= Tablet Layout ============== */
+
+@media only screen and (min-width: 200px) and (max-width: 991px) {}
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 960px){
+
+.inner_header_area{
+    border: 1px solid #ffffff;
+    border-top: 5px solid #1CA3DD;
+}
+
+.main_menu{
+    min-height: 0;
+}
+
+.main_menu ul li {
+    padding: 0;
+}
+
+.main_menu ul li ul{
+    position: initial;
+    background-color: initial;
+}
+
+.main_menu ul li:hover{
+    background-color: initial;
+}
+
+.mean-container .mean-bar {
+    padding: 0;
+}
+
+.mean-container .mean-nav {
+    width: 90%;
+}
+
+.mean-container .mean-nav ul li a.mean-expand{
+    height: 22px;
+    padding: 8px !important;
+}
+
+}
+
+
+/* ==================  Mobile Layout ===================== */
+
+@media only screen and (min-width: 200px) and (max-width: 900px){}
+
+/* ==================  Mobile Layout ===================== */
+
+@media only screen and (min-width: 200px) and (max-width: 814px){
+
+.inner_footer_area{
+    flex-wrap: wrap;
+}
+.contact_details{
+    flex-basis: 50%;
+}
+
+.quick_links{
+    flex-basis: 50%;
+}
+.blog{
+    flex-basis: 50%;
+}
+.grab_our_newsletter{
+    flex-basis: 50%;
+}
+
+}
+
+/* ==================  Mobile Layout ===================== */
+
+@media only screen and (min-width: 200px) and (max-width: 750px){
+
+.services_area{
+    padding-bottom: 30px;
+}
+
+
+}
+
+
+/* ================ Mobile Layout ================ */
+
+@media only screen and (min-width: 200px) and (max-width: 660px){
+
+.mini_header{
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+.search_form{
+    margin: 0;
+}
+.services_item_all{
+    flex-wrap: wrap;
+}
+.services_first_col, .services_second_col, .services_third_col{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+}
+
+/* ================ Mobile Layout ================ */
+
+@media only screen and (min-width: 200px) and (max-width: 642px){
+
+.inner_right_intro_area{
+    flex-direction: column;
+}
+
+.team_image{
+    align-self: center;
+}
+
+.team_details{
+    padding-left: 0;
+}
+
+
+}
+
+
+/* ============== Mobile Layout ================== */
+
+@media only screen and (min-width:200px) and (max-width: 620px){}
+
+
+/* ================= Mobile Layout ================== */
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+
+.services_first_col, .services_second_col, .services_third_col{
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro_area_both{
+    flex-direction: column;
+}
+
+.right_intro_meettheteam{
+    justify-content: center;
+}
+
+.team_details h3, .team_details p{
+    text-align: center;
+}
+
+.contact_details{
+    flex-basis: 100%;
+}
+
+.quick_links{
+    flex-basis: 100%;
+}
+
+.blog{
+    flex-basis: 100%;
+}
+
+.grab_our_newsletter{
+    flex-basis: 100%;
+}
+
+.inner_copyright_area{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.right_copyright{
+    margin-left: 0;
+}
+
+}
+
+
+/* ================= Mobile Layout ================== */
+
+@media only screen and (min-width: 200px) and (max-width: 440px) {
+
+.logo{
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.logo a img{
+    min-width: 150px;
+}
+
+.logo h1{
+    padding: 0;
+    align-self: center;
+}
+
+}
+
+
+/* ============== Mobile Layout ===================== */
+
+
+@media only screen and (min-width: 200px) and (max-width: 250px){}
+
+
