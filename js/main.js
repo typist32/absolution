@@ -1,12 +1,12 @@
 
 // ========== meanmenu js ================
 
-$(document).ready(function () {
-$('.nav_menu').meanmenu({
-    meanMenuContainer: '#mobile_menu',
-    meanScreenWidth: 960,
-  });
-});
+//$(document).ready(function () {
+//$('.nav_menu').meanmenu({
+  //  meanMenuContainer: '#mobile_menu',
+   // meanScreenWidth: 960,
+  //});
+//});
 
 
 
